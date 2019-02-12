@@ -1,8 +1,8 @@
 interface Todo {
     name: string;
-    completed: boolean;
+    completed?: boolean;
 }
 
-var todo: Todo = {
-
+var todo= <Todo>{
+	name: "hello",
 };
